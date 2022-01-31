@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "api-setup-task-example",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "yarn node --experimental-vm-modules src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1"
+  },
+  "devDependencies": {}
+}
